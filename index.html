@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css">
     <title>월화food</title>
     <!-- 스와이퍼 css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -92,23 +93,55 @@
       </main>
     <ul class="product">
      <li>
-      <a href="#"><img src="images/p1.jpg" alt="상품"><p>(국내산)목련(토종)꽃차(원물)170ml/사계절 냉,온 음료/수제Tea</p><b>21,500원</b></a>
-     </li>
-     <li>
-      <a href="#"><img src="images/p2.jpg" alt="상품"><p>(국내산)리얼착즙도라지진액청 500ml 사계절 냉,온 음료/수제식품</p><b>35,000원</b></a>
-     </li>
-     <li>
-      <a href="#"><img src="images/p3.jpg" alt="상품"><p>(국내산)리얼착즙생강진액청 500ml 사계절 냉,온 음료/수제식품</p><b>32,000원</b></a>
-     </li>
-     <li>
-      <a href="#"><img src="images/p4.jpg" alt="상품"><p>(티백)국내산_겨우살이차_20T / 사계절냉,온 음료 / 수제덖음차</p><b>18,000원</b></a>
-     </li>
-     <li>
-      <a href="#"><img src="images/p5.jpg" alt="상품"><p>웰빙차2P선물세트(기본옵션_팽이버섯차1P+선택옵션1P)사계저냉,온수제덖음차(국내산원물)</p><b>30,200원</b></a>
-     </li>
-     <li>
-      <a href="#"><img src="images/p6.jpg" alt="상품"><p> 웰빙차2P선물세트(기본옵션_진피(귤)차1P+선택옵션1P)사계절냉,온수제덖음차(국내산원물)</p><b>30,900원</b></a>
-     </li>
+      <a href="#">
+        <div class="product-img">
+          <img src="images/p1.jpg" alt="상품">
+        </div>
+        <p>(국내산)목련(토종)꽃차(원물)170ml/사계절 냉,온 음료/수제Tea</p>
+        <b>21,500원</b>
+        </a>
+       </li>
+       <li>
+        <a href="#">
+          <div class="product-img">
+            <img src="images/p2.jpg" alt="상품">
+          </div>
+          <p>(국내산)리얼착즙도라지진액청 500ml 사계절 냉,온 음료/수제식품</p>
+          <b>35,000원</b>
+          </a>
+         </li> <li>
+          <a href="#">
+            <div class="product-img">
+              <img src="images/p3.jpg" alt="상품">
+            </div>
+            <p>(국내산)목련(토종)꽃차(원물)170ml/사계절 냉,온 음료/수제Tea</p>
+            <b>21,500원</b>
+            </a>
+           </li> <li>
+            <a href="#">
+              <div class="product-img">
+                <img src="images/p4.jpg" alt="상품">
+              </div>
+              <p>(국내산)목련(토종)꽃차(원물)170ml/사계절 냉,온 음료/수제Tea</p>
+              <b>21,500원</b>
+              </a>
+             </li> <li>
+              <a href="#">
+                <div class="product-img">
+                  <img src="images/p5.jpg" alt="상품">
+                </div>
+                <p>웰빙차2P선물세트(기본옵션_팽이버섯차1P+선택옵션1P)사계저냉,온수제덖음차(국내산원물)</p>
+                <b>30,200원</b>
+                </a>
+               </li> <li>
+                <a href="#">
+                  <div class="product-img">
+                    <img src="images/p6.jpg" alt="상품">
+                  </div>
+                  <p>웰빙차2P선물세트(기본옵션_진피(귤)차1P+선택옵션1P)사계절냉,온수제덖음차(국내산원물)</p>
+                  <b>30,900원</b>
+                  </a>
+                 </li>
     </ul>
 
     <!-- 푸터 -->
@@ -139,12 +172,12 @@
     <!-- 스와이퍼 js -->
     <script>
     var swiper = new Swiper(".mySwiper", {
-      cssMode: true,
+      // cssMode: true,
       speed: 100,
           loop: true,
       navigation: {
-        nextEl: ".swiper-button-next .sw-next",
-        prevEl: ".swiper-button-prev .sw-prev",
+        nextEl: ".sw-next",
+        prevEl: ".sw-prev",
       },
       autoplay: {
             delay: 9000,
